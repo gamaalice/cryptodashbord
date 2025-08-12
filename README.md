@@ -62,11 +62,5 @@ cd cryptodashbord
 # 2. Install dependencies
 npm install
 
-# 3. Copy environment variables template
-cp .env.example .env
-
-# 4. Configure your .env file
-# Add your API keys and other required settings
-
-# 5. Run the development server
+# 3. Run the development server
 npm run dev
