@@ -1,0 +1,15 @@
+# Ignora arquivos de configuração e markup da contagem de linguagens
+*.json linguist-generated=true
+*.yaml linguist-generated=true
+*.yml linguist-generated=true
+*.lock linguist-generated=true
+*.md linguist-generated=true
+*.mjs linguist-generated=true
+*.css linguist-generated=true
+*.html linguist-generated=true
+
+# Inclui arquivos TypeScript na contagem
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# JavaScript permanece incluído normalmente
