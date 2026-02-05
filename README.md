@@ -38,29 +38,6 @@ This project simplifies creating scalable, maintainable crypto applications. It 
 
 ---
 
-## Getting Started
+## View here 
 
-### Prerequisites
-
-Before installing, make sure you have:
-
-- **Node.js** (version 18)
-- **Npm**
-- **Git**
-
----
-
-## Installation
-
-Follow these steps to set up the project locally:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/cryptodashbord.git
-cd cryptodashbord
-
-# 2. Install dependencies
-npm install
-
-# 3. Run the development server
-npm run dev
+(click here)[https://cryptodashbord-wine.vercel.app/]
