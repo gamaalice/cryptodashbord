@@ -49,6 +49,7 @@ export function DetailedChart({ data, coinName, coinSymbol, isPositive }: Detail
             className="text-muted-foreground"
           />
           <YAxis
+            domain={["dataMin", "dataMax"]}
             axisLine={false}
             tickLine={false}
             tick={{ fontSize: 12 }}

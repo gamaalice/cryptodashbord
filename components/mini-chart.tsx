@@ -1,6 +1,6 @@
 "use client"
 
-import { LineChart, Line, ResponsiveContainer } from "recharts"
+import { LineChart, Line, YAxis, ResponsiveContainer } from "recharts"
 
 interface MiniChartProps {
   data: number[]
@@ -19,6 +19,7 @@ export function MiniChart({ data, isPositive, className = "" }: MiniChartProps) 
     <div className={`h-16 w-full ${className}`}>
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={chartData}>
+          <YAxis domain={["dataMin", "dataMax"]} hide />
           <Line
             type="monotone"
             dataKey="price"
