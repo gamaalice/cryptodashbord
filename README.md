@@ -141,6 +141,8 @@ The project is deployed on Vercel.
 
 Developed by Alice Gama.
 
-- [LinkedIn](COLOQUE_SEU_LINKEDIN_AQUI)
-- [Portfolio](COLOQUE_SEU_PORTFOLIO_AQUI)
-- [GitHub](https://github.com/gamaalice)
+LinkedIn: [Alice Gama](https://www.linkedin.com/in/alice-gama-75913022a/)
+
+Portfolio: [Portfolio Website](https://dev-portfolio-two-lovat-95.vercel.app/)
+
+GitHub: [gamaalice](https://github.com/gamaalice)
