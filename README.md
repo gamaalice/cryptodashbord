@@ -8,16 +8,6 @@ The application allows users to track cryptocurrency prices, market capitalizati
 
 [View project](https://cryptodashbord-wine.vercel.app/)
 
-## Screenshots
-
-> Add the screenshots inside the `/screenshots` folder and update the image paths below.
-
-![CryptoDash Home](./screenshots/home.png)
-
-![CryptoDash Dark Mode](./screenshots/dark-mode.png)
-
-![CryptoDash Chart Modal](./screenshots/chart-modal.png)
-
 ## Features
 
 - Real-time cryptocurrency data from CoinGecko API
@@ -43,27 +33,47 @@ The application allows users to track cryptocurrency prices, market capitalizati
 - Lucide React
 - Vercel
 
-## Main Functionalities
+## Main Functionalities and Screenshots
 
 ### Cryptocurrency Listing
 
 The dashboard displays cryptocurrency data including name, symbol, current price, market cap, market rank, 24h price variation, and 7-day sparkline data.
 
+<p align="center">
+  <img src="./public/1.png" alt="CryptoDash cryptocurrency listing in light mode" width="850" />
+</p>
+
 ### Search
 
 Users can search cryptocurrencies by name or symbol. The search input uses a debounce to reduce unnecessary API calls.
+
+<p align="center">
+  <img src="./public/4.png" alt="CryptoDash search functionality" width="700" />
+</p>
 
 ### Favorites
 
 Users can mark cryptocurrencies as favorites. Favorite assets are stored in LocalStorage and persist after page reload.
 
+<p align="center">
+  <img src="./public/3.png" alt="CryptoDash favorite cryptocurrencies" width="700" />
+</p>
+
 ### Charts
 
 Each cryptocurrency card includes a mini chart. Users can also open a modal with a detailed 7-day price chart.
 
+<p align="center">
+  <img src="./public/2.png" alt="CryptoDash detailed price chart modal" width="700" />
+</p>
+
 ### Theme Toggle
 
 The application supports light and dark mode using `next-themes`.
+
+<p align="center">
+  <img src="./public/5.png" alt="CryptoDash dark mode dashboard" width="850" />
+</p>
 
 ## Getting Started
 
